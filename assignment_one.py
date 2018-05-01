@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 
-Created by f.maire@qut.edu.au on Wed Jan 24 19:23:48 2018
-Last modified Sun 11 March 2018
-
-
 The aim of this assignment is to create a planner that given the state
 of an assembly workbench can determine whether or not a target state 
 is reacheable from the current state by a sequence of legal assembly actions.
@@ -48,9 +44,6 @@ on the workbench.
 We define a canonical order to list the parts present on a workbench.
 A function is provide to put a state in this canonical order.
 
-
-
-@author: frederic
 
 """
 
