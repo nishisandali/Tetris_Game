@@ -1,18 +1,8 @@
 
 """
-
-        Generic search module for Python 3.5+
-        
-This search module is loosely based on the AIMA book.
-Search (Chapters 3-4)
-
 The way to use this code is to subclass the class 'Problem' to create 
 your own class of problems,  then create problem instances and solve them with 
 calls to the various search functions.
-
-Last modified 2018-03-10
-by f.maire@qut.edu.au
-
 
 """
 
