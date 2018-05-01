@@ -1,14 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on  Feb 27 2018
-
-@author: frederic
-
-Scaffholding code for CAB320 Assignment One
-
-This is the only file that you have to modify and submit for the assignment.
-
-"""
 
 import numpy as np
 
@@ -16,22 +6,11 @@ import itertools
 
 import generic_search
 
-from assignment_one import (TetrisPart, AssemblyProblem, offset_range, 
+from Helper_functions import (TetrisPart, AssemblyProblem, offset_range, 
                             display_state, 
                             make_state_canonical, play_solution, 
-#                            load_state, make_random_state
+                            load_state, make_random_state
                             )
-
-# ---------------------------------------------------------------------------
-
-def print_the_team():
-    '''
-    Print details of the members of your team 
-    (full name + student number)
-    '''    
-    print('Hasini Charuka, 9775951')
-    print('Kasun Kalhara, 9544798')
-    print('Sandali Dinalaththa, 9878831')
     
 # ---------------------------------------------------------------------------
 def appear_as_subpart(some_part, goal_part):
